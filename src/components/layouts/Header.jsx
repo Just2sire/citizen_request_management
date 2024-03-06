@@ -30,7 +30,7 @@ const Header = () => {
             >
               <MenuIcon sx={{ color: "white" }} />
             </IconButton>
-            <Screen />
+            {/* <Screen /> */}
           </Grid>
         </Toolbar>
       </AppBar>
