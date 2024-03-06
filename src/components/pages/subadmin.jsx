@@ -111,10 +111,8 @@ const SubAdmin = () => {
       </Grid>
       <Grid
         item
-        // height={"calc(100vh - 64px)"}
         xs={12}
         md={9}
-        // backgroundColor={"whiteSmoke"}
         p={{xs: 3, md: 5}}
         flexDirection={"column"}
       >

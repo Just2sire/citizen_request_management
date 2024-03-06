@@ -8,7 +8,7 @@ import {
   Divider,
   Stack,
 } from "@mui/material";
-import { useCallback, useContext, useEffect } from "react";
+import { useCallback, useContext } from "react";
 import { DrawerContext } from "../../utils/context";
 import { SideItem } from "../pages/subadmin";
 import { MenuOpen } from "@mui/icons-material";
@@ -16,9 +16,9 @@ import { MenuOpen } from "@mui/icons-material";
 const Sidebar = () => {
   const { isOpen, setIsOpen } = useContext(DrawerContext);
 
-  useEffect(() => {
-    setIsOpen(true);
-  }, [setIsOpen]);
+  // useEffect(() => {
+  //   setIsOpen(true);
+  // }, [setIsOpen]);
 
   const closeDrawer = useCallback(() => {
     setIsOpen(false);
